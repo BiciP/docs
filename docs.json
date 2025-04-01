@@ -25,7 +25,8 @@
             "pages": [
               "agent",
               "playground",
-              "datasources"
+              "datasources",
+              "actions"
             ]
           }
         ]
