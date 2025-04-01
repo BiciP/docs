@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "ChatHive",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#393b3a",
+    "light": "#cfd4d2",
+    "dark": "#393b3a"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -16,7 +16,6 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
               "quickstart"
             ]
           },
@@ -31,16 +30,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",

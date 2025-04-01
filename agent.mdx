@@ -1,5 +1,63 @@
 ---
-title: 'Agent details'
-description: 'Customize and fine-tune your agent to fit your brand.'
+title: "Agent Configuration"
+description: "Customize your AI agents identity, behavior, and availability."
 ---
 
+## 🛠️ Core Settings
+
+---
+
+### 1. Agent Name
+
+**Appears in chat interfaces and analytics dashboards**
+
+- **Format Rules**:
+  - 3-50 characters
+  - Letters, numbers, and **no** spaces
+- **Example**:  
+  `SupportBot_EU` or `Sales-Assistant-v2`
+
+---
+
+### 2. Agent Avatar
+
+**Visual identity for your AI agent**
+
+- **Visibility**:
+  - Shown in chat widgets
+
+---
+
+### 3. Agent Prompt
+
+**Define personality and response behavior**
+
+```python
+# Example Personality Template
+You're a cheerful customer support agent for [Company].
+- Use emojis sparingly
+- Always confirm solutions with users
+- Never share internal policies
+```
+
+---
+
+## ⚡ Activation Controls
+
+### Agent Status:
+
+✅ Enabled:
+
+- Responds to customer queries
+- Responds to playground queries
+- Consumes API credits
+
+🔴 Disabled:
+
+- **Does not** respond to customer queries
+- Responds to playground queries
+- Consumes API credits (in playground mode)
+
+### Pre-Activation Checklist
+
+First verify all datasources (PDFs, websites, text) are properly uploaded and processed, especially checking OCR accuracy for scanned documents. Thoroughly test the agent in Playground with sample questions across different categories, including edge cases. Confirm responses match your desired tone, length, and accuracy standards. Validate that unanswered questions trigger appropriate fallback messages. Only enable the agent after it reliably handles these test cases in the Playground environment.
