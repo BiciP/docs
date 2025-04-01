@@ -17,7 +17,7 @@
             "group": "Get Started",
             "pages": [
               "introduction",
-              "quickstart",
+              "quickstart"
             ]
           },
           {
@@ -25,7 +25,7 @@
             "pages": [
               "agent",
               "playground",
-              "datasources",
+              "datasources"
             ]
           }
         ]
